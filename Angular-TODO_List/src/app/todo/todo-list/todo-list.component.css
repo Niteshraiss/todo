@@ -1,0 +1,45 @@
+.card {
+  background: lightgrey;
+  border-radius: 2px;
+  width: 100vw;
+}
+mat-card-title
+{
+  font-weight: lighter;
+}
+.sub-card{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100vw;
+
+}
+.heading{
+  text-align: center;
+  color: black;
+}
+.list-item-description{
+  width:90vh;
+}
+.completed {
+  color: green;
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.delete {
+  color: gray;
+}
+.list-item{
+  display: flex;
+  padding-top:5px;
+}
+
+.list {
+  width: 90vw;
+
+}

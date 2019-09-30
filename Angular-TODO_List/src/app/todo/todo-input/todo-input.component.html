@@ -1,0 +1,11 @@
+
+<br>
+<Br>
+<form class="todo-form">
+  <mat-form-field class="f-w">
+      <input matInput placeholder="Enter Items" #item>
+          </mat-form-field>
+          <br>
+          <br>
+<button class="btn-green" mat-raised-button (click)="addItem(item.value);item.value=''">Submit</button>
+  </form>

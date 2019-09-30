@@ -1,0 +1,16 @@
+form{
+  width: 90vw;
+}
+*:focus
+{
+  outline: none;
+}
+.f-w
+{
+  width: 80vw;
+  color: black;
+}
+.btn-green{
+  color: white;
+  background-color: green;
+}
